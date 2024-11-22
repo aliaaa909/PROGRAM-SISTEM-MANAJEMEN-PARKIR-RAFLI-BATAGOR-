@@ -379,6 +379,7 @@ void keluarParkir(Kendaraan slot[BARIS][KOLOM]) {
     cout << "        Hati-hati di jalan       "<< endl;
     cout << "=================================" << endl;
     cout << endl;
+  slot[indexBaris][indexKolom] = {"kosong", "", -1};  // Kosongkan slot
     do
         {
         cout<< " | Kembali ke menu utama?(y/n) : "; cin >>t;
@@ -404,7 +405,7 @@ void keluarParkir(Kendaraan slot[BARIS][KOLOM]) {
         while (t != 'y' && t != 'Y' && t != 'n' && t != 'N');
             system("cls");
 
-    slot[indexBaris][indexKolom] = {"kosong", "", -1};  // Kosongkan slot
+   
 }
 
 //===========================================================================================
