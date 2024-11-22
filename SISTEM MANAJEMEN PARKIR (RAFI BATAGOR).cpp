@@ -603,7 +603,7 @@ int main() {
         cout << "|  6. Catatan Transaksi                          |" << endl;
         cout << "|  7. keluar dari sistem                         |" << endl;
         cout << "|                                                |" << endl;
-        cout << "| Masukkan pilihan opsi anda (1-4) :             |" << endl;
+        cout << "| Masukkan pilihan opsi anda (1-7) :             |" << endl;
         cout << "|                                                |" << endl;
         cout << "|================================================|" << endl;
         cin >> pilihan;
